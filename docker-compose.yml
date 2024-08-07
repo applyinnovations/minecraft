@@ -12,7 +12,7 @@ services:
       - data:/data
     labels:
       caddy: minecraft.applyinnovations.au
-      caddy.reverse_proxy: {{upstreams 25565}}
+      caddy.reverse_proxy: "{{upstreams 25565}}"
 
 networks:
   proxy:
