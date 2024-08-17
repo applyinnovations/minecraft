@@ -1,3 +1,14 @@
 services:
+  better-minecraft:
+    build:
+      context: .
+    tty: true
+    stdin_open: false
+    ports:
+      - "25565:25565"
+    volumes:
+      # attach the relative directory 'data' to the container's /data path
+      - better_minecraft_world:/server/world
+
 volumes:
   better_minecraft_world:
