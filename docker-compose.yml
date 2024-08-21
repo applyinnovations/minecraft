@@ -1,5 +1,6 @@
 services:
   better-minecraft:
+    restart: unless-stopped
     build:
       context: .
     tty: true
