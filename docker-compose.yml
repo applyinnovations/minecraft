@@ -12,3 +12,5 @@ services:
 
 volumes:
   better_minecraft_world:
+    name: better_minecraft_world_backup
+    external: true
