@@ -1,3 +1,3 @@
 # Minecraft servers
 
-- `better-minecraft port 25565`
+- `better-minecraft` `port 25565`
